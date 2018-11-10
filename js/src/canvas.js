@@ -65,3 +65,16 @@
 			var bw = 5;
 			return (clientY - bound.top - bw) * (canvas.height / (bound.height - bw * 2));
 		}
+
+//스크린샷
+
+
+
+
+
+
+
+
+
+
+

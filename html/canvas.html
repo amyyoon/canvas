@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="../css/src/canvas.css" />
 </head>
 <body>
+	<div class="conBox">
 	<div class=option>
 		<select id="selcolor">
 			<option value="black">black</option>
@@ -22,7 +23,11 @@
 	
 	<canvas id="canvas" width="600" height="400">
 	</canvas>
+	</div>
 
+	<div class="consave">
+		<button on click="takeScreenShot()" type="button" id="saveImg">snapshot</button>
+	</div>
 
 <script src="../js/base/jquery-3.3.1.min.js"></script>
 <script src="../js/base/jquery-ui.min.js"></script>

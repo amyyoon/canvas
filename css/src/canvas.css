@@ -1,17 +1,25 @@
+
 .conBox{margin: auto;
-width: 100%;
+float:left;
+width: 1000px;
 height: auto;}
 
 .option{margin: auto;
-width: 800px;}
+width: 1000px;}
 
 canvas 
 {margin: auto;
 display: block;
-width: 800px;
-height: 400px;
+width: 1000px;
+height: 600px;
 background-image: url(../../man.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+.consave{float:left;
+width: 200px;
+height: auto;}
+
+#saveImg{border:1px solid #000;}

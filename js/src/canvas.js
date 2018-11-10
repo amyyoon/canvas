@@ -5,7 +5,8 @@
 		
 		window.onload = function() {
 			canvas = document.getElementById("canvas");
-			if (canvas == null || canvas.getContext == null) return;
+			if (canvas == null || canvas.getContext == null) 
+			return;
 			ctx = canvas.getContext("2d");
 			ctx.lineCap="round";
 			

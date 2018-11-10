@@ -1,7 +1,7 @@
 		var canvas;
 		var ctx;
 		var sx, sy;					// 현재 위치
-		var drawing = false;			// 현재 그리는 중?
+		var drawing = false;			// 현재 그리는 중인가?
 		
 		window.onload = function() {
 			canvas = document.getElementById("canvas");
@@ -9,7 +9,7 @@
 			ctx = canvas.getContext("2d");
 			ctx.lineCap="round";
 			
-			// 현재 위치를 저장
+			// 현재 위치를 저장한다.
 			canvas.onmousedown = function(e) {
 				e.preventDefault();
 				sx = canvasX(e.clientX);
@@ -17,7 +17,7 @@
 				drawing = true;
 			}
 			
-			// 현재 위치에서 새로 이동한 곳까지 선 그림
+			// 현재 위치에서 새로 이동한 곳까지 선을 그린다.
 			canvas.onmousemove = function(e) {
 				if (drawing) {
 					e.preventDefault();
@@ -30,7 +30,7 @@
 				}
 			}
 
-			// 그리기 종료
+			// 그리기를 종료한다.
 			canvas.onmouseup = function(e) {
 				drawing = false;
 			}			

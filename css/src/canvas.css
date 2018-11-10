@@ -3,13 +3,13 @@ width: 100%;
 height: auto;}
 
 .option{margin: auto;
-width: 1000px;}
+width: 800px;}
 
 canvas 
 {margin: auto;
 display: block;
-width: 1000px;
-height: 800px;
+width: 800px;
+height: 400px;
 background-image: url(../../man.jpg);
 background-position: center;
 background-repeat: no-repeat;

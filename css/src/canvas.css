@@ -1,0 +1,17 @@
+.conBox{margin: auto;
+width: 100%;
+height: auto;}
+
+.option{margin: auto;
+width: 1000px;}
+
+canvas 
+{margin: auto;
+display: block;
+width: 1000px;
+height: 800px;
+background-image: url(../../man.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

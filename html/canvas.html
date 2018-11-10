@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
-	<style>
-		canvas {border:5px solid #001;
-			background-image: url(../man.jpg);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			}
-	</style>
+	<title>canvas</title>
+	<link rel="stylesheet" href="../css/base/reset.css" />
+	<link rel="stylesheet" href="../css/src/canvas.css" />
 </head>
 <body>
-	<div>
+	<div class="conBox">
+	<div class="option">
 		<select id="selcolor">
 			<option value="black">black</option>
 			<option value="red">red</option>
@@ -28,7 +23,7 @@
 	
 	<canvas id="canvas" width="800" height="600">
 	</canvas>
-
+	</div>
 <script src="../js/base/jquery-3.3.1.min.js"></script>
 <script src="../js/base/jquery-ui.min.js"></script>
 <script src="../js/src/canvas.js"></script>

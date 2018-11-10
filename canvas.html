@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		canvas {border:5px solid #001;
+			background-image: url(man.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			}
+	</style>
+</head>
+<body>
+	<div>
+		<select id="selcolor">
+			<option value="black">검정</option>
+			<option value="red">빨강</option>
+			<option value="green">초록</option>
+			<option value="blue">파랑</option>
+			<option value="magenta">분홍</option>
+		</select>
+		<select id="selwidth">
+			<option value="1">얇게</option>
+			<option value="3">중간</option>
+			<option value="5">굵게</option>
+		</select>
+		<input type="button" id="clear" value="모두 지움"/>
+	</div>
+	
+	<canvas id="canvas" width="800" height="600">
+		이 브라우저는 캔버스를 지원하지 않습니다.
+	</canvas>
+
+<script src="js/base/jquery-3.3.1.min.js"></script>
+<script src="js/base/jquery-ui.min.js"></script>
+<script src="js/src/canvas.js"></script>
+
+</body>
+</html>
